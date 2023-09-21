@@ -199,27 +199,27 @@ footer {
   
   #candle {
     grid-area: candle;
-    background: url("../candle.png");
+    background: url("candle.png");
   }
   
   #rspca {
     grid-area: rspca;
-    background-image: url("../rspca.png");
+    background-image: url("rspca.png");
   }
   
   #abcnews {
     grid-area: abcnews;
-    background-image: url("../abcnews.png");
+    background-image: url("abcnews.png");
   }
   
   #domezone {
     grid-area: domezone;
-    background-image: url("../domezone.png");
+    background-image: url("domezone.png");
   }
   
   #ifriend {
     grid-area: ifriend;
-    background-image: url("../ifriend.png");
+    background-image: url("ifriend.png");
   }
   
   .categoryGridArea {
