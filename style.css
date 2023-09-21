@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DEDBCE;
+}
+
+/* Style Heading & Font */
+
+h1 {
+    color: black;
+    font-family: Manrope, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-left: 10%;
+    padding: 0;
+}
+
+h5 {
+    color: black;
+    font-family: Manrope, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h6 {
+    color: var(--Font, #000);
+
+    /* Body 2 */
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54.5px; /* 227.083% */
+}
+
+h2 {
+    color: var(--Font, #FFF);
+
+    /* Body 2 */
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 10%;
+}
+
+h3 {
+    color: #000;
+    /* Title 3 */
+    font-family: Manrope, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+h4 {
+    color: #000;
+    font-family: Manrope, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    margin-left: 10%;
+}
+
+p {
+    color: #000;
+    font-family: Manrope, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+}
+
+
+/* Style Class */
+.year {
+    margin-left: 10%;
+    padding-bottom: 2px;
+}
+
+.intro {
+    margin-left: 10%;
+    margin-right: 150px;
+    padding: 2px;
+}
+
+/* Style hero section */
+.hero {
+    padding-bottom: 0;
+}
+
+
+/* Style navigation */
+header {
+    background-color: #000;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 5%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--Buttons, #FFF);
+
+    /* Body 1 */
+    font-family: Manrope, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 100px; /* 229.167% */
+    letter-spacing: 0.48px;
+}
+
+
+/* Button */
+
+button {
+    border-radius: 500px;
+    border: 3px solid #000;
+    display: flex;
+    width: 275px;
+    height: 74px;
+    padding: 0px 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Primary-Fonts, #1E1E1E);
+    background-color: #FFFFFF;
+    margin-left: 10%;
+    /* Body 1 */
+    font-family: Manrope, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px; /* 229.167% */
+    letter-spacing: 0.48px;
+}
+
+/* Style footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    bottom: 0;
+}
+
+.content {
+    justify-content: right;
+}
+
+
+/* images */
+.containerBlock {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 150px;
+    padding: 150px;
+    background-color: #000;
+}
+
+.centre {
+    width: 1170px;
+    height: 1114px;
+}
+
+/* Category Grid CSS */
+.subHeading {
+    text-align: left;
+    width: 200px;
+    margin: 10%;
+  }
+  
+  #categoryGrid {
+    margin: 50px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "candle rspca rspca"
+    "candle rspca rspca"
+    "abcnews domezone ifriend";
+  }
+  
+  #candle {
+    grid-area: candle;
+    background: url("../candle.png");
+  }
+  
+  #rspca {
+    grid-area: rspca;
+    background-image: url("../rspca.png");
+  }
+  
+  #abcnews {
+    grid-area: abcnews;
+    background-image: url("../abcnews.png");
+  }
+  
+  #domezone {
+    grid-area: domezone;
+    background-image: url("../domezone.png");
+  }
+  
+  #ifriend {
+    grid-area: ifriend;
+    background-image: url("../ifriend.png");
+  }
+  
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+
+  .backgroundcolor {
+    background-color: #000;
+    justify-content: center;
+    padding: 10px 70px 10px 70px;
+  }
+  
+  .heading {
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px;
+    height: 50px;
+    border-bottom: 0;
+  }
+
+  .middle {
+    color: #fff;
+    font-family: Manrope, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+    text-align: center;
+  }
+
+  /* MEDIA QUERIES ARE BELOW HERE*/
+  
+  @media only screen and (max-width: 1000px) {
+
+    #categoryGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "candle"
+      "rspca"
+      "abcnews"
+      "domezone"
+      "ifriend";
+    }
+
+    h1 {
+        font-size: 64px;
+      }
+    
+    h3 {
+        font-size: 48px;
+      }
+    
+    h4 {
+        font-size: 36px;
+      }
+      
+    h5 {
+        font-size: 64px;
+      }
+
+    h6 {
+        font-size: 20px;
+      }
+
+    p {
+        font-size: 36px;
+      }
+
+    .middle {
+        font-size: 20px;
+    }
+
+    button {
+        border: 2px solid #000;
+        display: flex;
+        width: 250px;
+        height: 64px;
+        padding: 0px 72px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: var(--Primary-Fonts, #1E1E1E);
+        background-color: #FFFFFF;
+        margin-left: 10%;
+        /* Body 1 */
+        font-family: Manrope, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 55px; /* 229.167% */
+        letter-spacing: 0.48px;
+    }
+}
