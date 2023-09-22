@@ -1,0 +1,30 @@
+<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Circle1" clip-path="url(#clip0_181_358)">
+<g id="Clip path group">
+<mask id="mask0_181_358" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="250" height="250">
+<g id="__lottie_element_768">
+<path id="Vector" d="M250 0H0V250H250V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_181_358)">
+<g id="Group">
+<g id="Group_2">
+<g id="Group_3">
+<path id="Vector_2" d="M123.281 78.6613C162.911 64.6747 205.457 84.5089 218.229 122.924C231.001 161.34 209.195 203.886 169.565 217.872C129.935 231.859 87.3886 212.025 74.6166 173.609C61.8445 135.194 83.6509 92.6479 123.281 78.6613Z" fill="black"/>
+</g>
+</g>
+<g id="Group_4">
+<g id="Group_5">
+<path id="Vector_3" d="M48.6828 29.3015C65.9961 23.1911 84.5835 31.8562 90.1632 48.6389C95.743 65.4215 86.2164 84.0089 68.9031 90.1193C51.5898 96.2297 33.0024 87.5646 27.4226 70.7819C21.8429 53.9993 31.3695 35.4119 48.6828 29.3015Z" fill="#BBAB7F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_181_358">
+<rect width="250" height="250" fill="white"/>
+</clipPath>
+</defs>
+</svg>
