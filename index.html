@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>UX UI Designer Portfolio Annie Lee</title>
 </head>
 
@@ -11,25 +15,30 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+              <div class="w3-top">
+                <div class="w3-bar w3-black w3-card">
+                  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li> 
+                </div>
+              </div>
             </ul>
         </nav>
     </header>
 
     <section>
         <div class="hero">
-            <h1>UX UI DESIGNER</h1>
-            <h1>PORTFOLIO</h1>
+            <h3>UX UI DESIGNER</h3>
+            <h3>PORTFOLIO</h3>
         </div>
         <div class="year">
-            <h3>2023</h3>
+            <h4></h4>
         </div>
         <div>
             <h4>ANNIE LEE</h4>
-            <button>PROJECTS</button>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">PROJECTS</button>
         </div>
     </section>
 
@@ -98,6 +107,15 @@
 
     </section>
 
+    <div class="w3-center">
+      <div class="round">
+      <h1 class="textAlign">Apple is red.</h1>
+      <p class="textAlign">Orange is not blue.</p>
+      <p class="blue textAlign">Blueberry is blue.</p>
+      <p class="blue textAlign">Ocean is blue.</p>
+      </div>
+    </div>
+
     <footer>
         <div class="content">
             <h2>&copy; 2023 ANNIE LEE</h2>
@@ -115,5 +133,8 @@
     </footer>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="index.js"></script>
 
 </html>
